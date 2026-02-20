@@ -1,0 +1,31 @@
+.card{
+    border: none;
+    text-align: center;
+    width: "18rem";
+    height: 300px;
+    
+
+}
+.image{
+    
+    background:#ffefef;
+    padding:0px 5px ;
+    border-radius: 8px;
+}
+.card-img-top{
+width: 100px;
+height: 150px;
+border-radius: 15px;
+
+}
+.card-body{
+    padding:10px 0px;
+   
+}
+.card-title{
+color: #222;
+font-weight: 700;
+}
+.card-text{
+    color:#777;
+}
