@@ -1,5 +1,5 @@
 import nocover from "../assets/images/nocover.png";
-import "./Book.css";
+import "./book.css";
 export default function Book({ book }) {
   const coverUrl = book.cover_i
     ? `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
