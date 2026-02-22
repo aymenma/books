@@ -1,20 +1,29 @@
-<<<<<<< HEAD
-# React + Vite
+# 📚 Books Library (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description
+Books Library is a web application built with React + Vite.  
+The project allows users to manage books using CRUD operations, search for books, and fetch data from an external API.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ✅ Create new books  
+- ✅ Read and display books list  
+- ✅ Update book information  
+- ✅ Delete books  
+- ✅ Search books dynamically  
+- ✅ API integration  
+- ✅ Responsive UI using React Bootstrap  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
+- React  
+- Vite  
+- React Bootstrap  
+- JavaScript   
+- API Integration  
+- HTML & CSS  
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# books
->>>>>>> e9406175ebf6eac73b35e7a715760e2d9b8d797c
+## 📦 Installation
+```bash
+git clone https://github.com/aymenma/books.git
+cd books
+npm install
+npm run dev
