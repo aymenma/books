@@ -19,7 +19,10 @@ The project allows users to manage books using CRUD operations, search for books
 - React Bootstrap  
 - JavaScript   
 - API Integration  
-- HTML & CSS  
+- HTML & CSS 
+
+## 🌐 Live Demo
+https://proj-books.netlify.app/
 
 ## 📦 Installation
 ```bash
