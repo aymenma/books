@@ -6,7 +6,7 @@ export function loadinBooks(query) {
     params: {
       q: query,
       fields: "title,author_name,first_publish_year,cover_i,key",
-      limit: 4,
+      limit: 20,
     },
   });
 }
