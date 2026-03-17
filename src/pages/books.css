@@ -24,14 +24,15 @@
 
 }
 .content {
-  margin-top: 180px;
+
+ padding: 5px ;
+ margin: 0;
 }
 .search button:hover {
   color: #fff;
   background-color: #444;
 }
-.content button {
-}
+
 .book-wrapper button {
   background-color: #161511;
   border: 1px solid #e8e4dc;

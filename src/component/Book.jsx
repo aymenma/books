@@ -10,7 +10,6 @@ export default function Book({ book }) {
         <div className="image">
           <img className="card-img-top " src={coverUrl} />
         </div>
-
         <div className="card-body d-flex flex-column text-start">
           <h5 className="card-title mt-4"> {book.title}</h5>
           <p className="card-text ">{book.author_name?.join(", ")}</p>

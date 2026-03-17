@@ -1,9 +1,9 @@
 .card {
-  background-color:#161511; 
+  background-color:#0f0e0c;
   border: none;
   text-align: center;
   width: "18rem";
-  height: 300px;
+  min-height: 450px;
 }
 .card:hover {
   transform: translateY(-6px);
@@ -11,15 +11,15 @@
 }
 .image {
   background: #161511;
-  padding: 0px 5px;
+  padding: 20px  5px;
   border-radius: 8px;
-  
+  height: 250px;
 }
 .card-img-top {
   width: 100px;
-  height: 280px;
+  height: 180px;
   border-radius: 15px;
-   transition: transform 0.4s ease;
+  transition: transform 0.4s ease;
 }
 
 .card:hover .card-img-top {
