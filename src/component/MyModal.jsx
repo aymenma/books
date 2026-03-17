@@ -2,7 +2,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 // import { useEffect } from "react";
-
+import "./modal.css";
 export default function MyModal({
   formData,
   setFormData,
@@ -57,7 +57,7 @@ export default function MyModal({
 
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose } >
         <Modal.Header closeButton>
           <Modal.Title>{editingBook ? "Edit Book" : "Add Book"}</Modal.Title>
         </Modal.Header>
@@ -86,16 +86,14 @@ export default function MyModal({
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>image</Form.Label>
               <Form.Control
-              placeholder="Exemple: 6874224,8231234,5258265 from open library "
+                placeholder="Exemple: 6874224,8231234,5258265 from open library "
                 name="cover_i"
                 value={formData?.cover_i || ""}
                 autoFocus
                 onChange={handleChange}
-                
               />
-
             </Form.Group>
-            
+
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>first_publish_year</Form.Label>
               <Form.Control
@@ -108,11 +106,31 @@ export default function MyModal({
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button style={{background:"#718096" , border:"#718096"}} onClick={handleClose}>
+          <Button
+            style={{
+              background: "transparent",
+              border: "1px solid rgba(232,228,220,0.2)",
+              color: "rgba(232,228,220,0.6)",
+              borderRadius: "2px",
+              fontSize: "12px",
+              letterSpacing: "0.1em",
+              padding: "8px 20px",
+            }}
+            onClick={handleClose}
+          >
             Close
           </Button>
           <Button
-            style={{background:"#38A169" , border:"#38A169"}}
+            style={{
+              background: "#c9a96e",
+              border: "none",
+              color: "#0f0e0c",
+              borderRadius: "2px",
+              fontSize: "12px",
+              fontWeight: "500",
+              letterSpacing: "0.1em",
+              padding: "8px 20px",
+            }}
             onClick={() => {
               handleSave();
               handleClose();

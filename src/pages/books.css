@@ -1,28 +1,66 @@
-
 .search input {
-    width: 300px;
-  border: 1px solid #444;
+  color: #e8e4dc;
+  width: 300px;
+ border: none;
   padding: 10px;
   border-radius: 3px;
-  
+    border-bottom: 1.5px solid rgba(232, 228, 220, 0.25);
+  background: transparent;
 }
+
+ 
+  
+
+
 .search button {
-  color: #444;
-  border: 1px solid #444;
-  background-color: white;
+  color: #e8e4dc;
   border-radius: 3px;
   padding: 10px 30px;
 
+    border: none;
+  border-bottom: 1.5px solid rgba(232, 228, 220, 0.25);
+  background: transparent; 
+
+
 }
-.search button:hover{
-    color: #fff;
-    background-color: #444;
+.content {
+  margin-top: 180px;
 }
-.content button{
-  border: 1px solid #222;
-  border-radius: 3px;
-  height: 30px;
-  width: 70px;
+.search button:hover {
   color: #fff;
-  font-weight: 600;
+  background-color: #444;
+}
+.content button {
+}
+.book-wrapper button {
+  background-color: #161511;
+  border: 1px solid #e8e4dc;
+  border-radius: 17px;
+  height: 30px;
+  width: 100px;
+  color: #e8e4dc;
+  font-size: 16px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    background 0.2s,
+    color 0.2s;
+}
+
+
+.book-wrapper:hover button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.book-wrapper:hover .btn-delete:hover {
+  background: rgba(220, 80, 60, 0.15);
+  color: #dc503c;
+}
+
+.book-wrapper:hover .btn-edit:hover {
+  background: rgba(201, 169, 110, 0.12);
+  color: #c9a96e;
 }

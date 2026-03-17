@@ -1,4 +1,14 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0e0c;
+  color: #e8e4dc;
+}
 
 
 
-
+/* --bg: #0f0e0c;
+--surface: #161511;
+--gold: #c9a96e;
+--text: #e8e4dc; */

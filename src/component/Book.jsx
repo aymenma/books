@@ -12,8 +12,9 @@ export default function Book({ book }) {
         </div>
 
         <div className="card-body d-flex flex-column text-start">
-          <h5 className="card-title "> {book.title}</h5>
+          <h5 className="card-title mt-4"> {book.title}</h5>
           <p className="card-text ">{book.author_name?.join(", ")}</p>
+          <p className="gold card-text mt-auto   "> {book.first_publish_year} </p>
         </div>
       </div>
     </>
